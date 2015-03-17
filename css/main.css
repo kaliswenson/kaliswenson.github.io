@@ -1,10 +1,9 @@
 body{
 	background:#c5d0ce;
 	color:000;
-	text-align: left;
+	text-align: right;
 	margin: 30px;
-	font-family: "Neuzeit S", sans-serif;
-	text-align: right; 
+	font-family: "Neuzeit S", sans-serif; 
 }
 h1{ 
 	font-size: 24px;
