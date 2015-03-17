@@ -1,21 +1,22 @@
 body{
 	background:#c5d0ce;
-	color:000;
+	color: 000;
 	text-align: right;
 	margin: 30px;
 	font-family: "Neuzeit S", sans-serif; 
 }
 h1{ 
 	font-size: 24px;
-	font-weight:500;
+	font-weight: 500;
 	border-bottom: 2px dotted #000;
 	text-transform: uppercase;
 }
 p{
-	font-size:14px;
+	font-size: 16px;
 	font-weight: 300;
 }
 ul{
+	font-size: 14px;
 	font-weight: lighter;
 	list-style-type: none;
 }
@@ -34,5 +35,5 @@ a{
 #quippy {
 	font-size: 14px;
 	font-style: italic;
-	color:#fff;
+	color: #fff;
 }
