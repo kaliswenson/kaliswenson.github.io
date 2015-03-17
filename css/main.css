@@ -1,4 +1,37 @@
-body {
-	background: indianred;
-	color: white; 
+body{
+	background:#c5d0ce;
+	color:000;
+	text-align: left;
+	margin: 30px;
+	font-family: "Neuzeit S", sans-serif; 
+}
+h1{ 
+	font-size: 24px;
+	font-weight:500;
+	border-bottom: 2px dotted #000;
+	text-transform: uppercase;
+}
+p{
+	font-size:14px;
+	font-weight: 300;
+}
+ul{
+	font-weight: lighter;
+}
+
+a{
+	font-size: 14px;
+	font-weight: 300;
+	color: #000;
+}
+
+#slogan{
+	font-style: italic;
+	font-size: 18px;
+}
+
+#quippy {
+	font-size: 14px;
+	font-style: italic;
+	color:#fff;
 }
