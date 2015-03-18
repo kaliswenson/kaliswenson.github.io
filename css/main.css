@@ -3,13 +3,14 @@ body{
 	color: 000;
 	text-align: right;
 	margin: 30px;
-	font-family: "Neuzeit S", sans-serif; 
+	font-family: "Neuzeit", sans-serif; 
 }
 h1{ 
+	font-family: "Arvo", serif;
 	font-size: 24px;
 	font-weight: 500;
 	border-bottom: 2px dotted #000;
-	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 p{
 	font-size: 16px;
@@ -19,6 +20,7 @@ ul{
 	font-size: 14px;
 	font-weight: lighter;
 	list-style-type: none;
+	line-height: 1.5em;
 }
 
 a{
