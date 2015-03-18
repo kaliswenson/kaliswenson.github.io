@@ -1,0 +1,40 @@
+body{
+	background:#c5d0ce;
+	color: 000;
+	text-align: right;
+	margin: 30px;
+	font-family: "Neuzeit", sans-serif; 
+}
+h1{ 
+	font-size: 24px;
+	font-weight: 500;
+	border-bottom: 2px dotted #000;
+	letter-spacing: 4px;
+}
+p{
+	font-size: 16px;
+	font-weight: 300;
+}
+ul{
+	font-size: 14px;
+	font-weight: lighter;
+	list-style-type: none;
+	line-height: 1.5em;
+}
+
+a{
+	font-size: 14px;
+	font-weight: 300;
+	color: #000;
+}
+
+#slogan{
+	font-style: italic;
+	font-size: 18px;
+}
+
+#quippy {
+	font-size: 14px;
+	font-style: italic;
+	color: #fff;
+}
