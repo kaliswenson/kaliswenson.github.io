@@ -1,0 +1,95 @@
+body { 
+	font-family: "Montserrat", sans-serif;
+	font-weight: normal;
+	margin: auto;
+	width: 1080px;
+}
+
+h1 {
+	margin: 10px;
+}
+
+span { 
+	font-size: 18px;
+}
+
+nav {
+	background-color: #8e44ad;
+	width: 100%;
+	padding: 10px 0 10px 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: #8e44ad;
+	background-color: #fff;
+
+}
+
+#main {
+	display: block;
+	width: 40%;
+	float: left;
+	margin: 0 25px 0 25px;
+	padding: 25px;
+	text-align: center;
+}
+
+p {
+	margin: 20px;
+	padding: 20px;
+}
+
+#main a {
+	text-decoration: none;
+	color: #8e44ad;
+}
+
+#skills {
+	float: left;
+	width: 50%;
+}
+
+#skills p {
+	text-align: center;
+	font-size: 13px;
+}
+
+#skillsleft {
+	float: left;
+	width: 50%;
+}
+#skillsright {
+	float: right;
+	width: 50%;
+}
+.words {
+	width: 250px;
+	height: 160px;
+	line-height: 80px;
+	padding: 10px;
+}
+.img {
+	width: 270px;
+	height: 180px;
+}
+  
+footer {
+	clear: both;
+	background-color: #8e44ad;
+	text-align: right;
+	margin: 0;
+	width: 100%;
+}
+
+h4 {
+	padding: 10px;
+	color: #fff;
+	font-size: 12px;
+}
