@@ -1,51 +1,80 @@
-body {
-	background-color: #d8d6d7;
-	color: #88747b;
+body { 
+	font-family: "Montserrat", sans-serif;
+	font-weight: normal;
+	width: 1080px;
+	margin: auto;
 }
-nav {
-	height: 50px;
-	background-color: #88747b;
-	line-height: 50px;
-	padding: 25px; 
-}
-footer {
-	clear: both;
-	background-color: #88747b;
-	color: #d1e9e3;
-	height: 50px;
-	line-height: 50px;
-	padding: 25px;
-}
-div {
-	display: inline-block;
-	background-color: #d8d6d7;
-	color: 455513;
-	text-align: center;
-	line-height: 700px;
-	width: 50%;
-	height: 400px;
+
+h1 {
+	padding: 0 0 0 10px;
 	margin: 10px;
+}
+
+span { 
+	font-size: 18px;
+}
+
+nav {
+	background-color: #8e44ad;
+	padding: 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: #8e44ad;
+	background-color: #fff;
+
+}
+
+div {
+	display: block;
+	width: 40%;
+	float: left;
+	margin: 30px 20px 20px 30px;
+	padding: 25px;
+	text-align: center;
+}
+
+p {
+	margin: 20px;
+	padding: 20px;
+}
+
+div a {
+	text-decoration: none;
+	color: #8e44ad;
+}
+
+table {
+	width: 50%;
+	text-align: center;
 	float: right;
 }
 
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-
-}
-
-li {
-	float: left;
-	width: 50%;
-	height: 133.333px;
-	line-height: 133.333px;
-	text-align: center;
+td {
 	color: #000;
-	background-color: #d1e9e3;
-	outline: 3px solid #222;
+	height: 180px;
+	width: 270px;
+	border: 1px solid #8e44ad;
+	/*outline: 1px solid #8e44ad;*/
+}
+  
+footer {
+	clear: both;
+	background-color: #8e44ad;
+	text-align: right;
+	margin: 0;
 }
 
-span {
+h4 {
+	padding: 10px;
+	color: #fff;
 	font-size: 12px;
 }
+
