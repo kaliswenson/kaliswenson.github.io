@@ -38,8 +38,8 @@ a {
 .words {
 	float: left;
 	text-align: left;
-	background: #eee;
 	width: 40%;
+	border-top: 1px solid #ccc;
 }
 .image {
 	float: left;
