@@ -5,6 +5,7 @@ body {
 
 img {
 	border: 1px solid #ccc;
+	width: 100%;
 }
 
 h1 { 
@@ -20,6 +21,7 @@ h2 {
 h3 {
 	font-weight: 400;
 	font-size: 1em;
+	margin: 0;
 }
 
 a {
