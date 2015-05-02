@@ -92,6 +92,9 @@ a:hover {
 		width: 100%;
 		border-bottom: 1px dotted black;
 	}
+	h4{
+		padding: .1em;
+	}
 	p {
 		padding: 0;
 	}
