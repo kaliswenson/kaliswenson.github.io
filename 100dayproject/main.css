@@ -1,6 +1,6 @@
 body {
 	background-color: #fffffd;
-	color: #101010;
+	color: #010101;
 	font-family: "Josefin sans", sans-serif;
 	font-size: 36px;
 }
@@ -11,28 +11,24 @@ img {
 }
 
 h1 { 
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 1.5em;
-	margin: .75em 0 .75em .25em;
+	margin: .25em 0 1em .25em;
 	float: left;
 }
 
 span {
 	font-size: .35em;
+	font-weight: 400;
 }
 
 nav {
 	float: right;
 	font-size: .75em;
 	text-decoration: underline;
-	margin: 1.5em;
+	font-weight: 400;
+	margin: .5em .5em;
 	padding: .75em 0 0 0;
-}
-
-h2 {
-	font-weight: 300;
-	font-size: .5em;
-	float: right;
 }
 
 h3 {
@@ -58,6 +54,10 @@ p {
 a {
 	text-decoration: none;
 	color: #010101;
+}
+
+a:hover {
+	color: #1abc9c;
 }
 
 #wrapper {
