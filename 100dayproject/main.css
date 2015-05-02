@@ -85,7 +85,7 @@ a:hover {
 	.words {
 		float: none;
 		width: 100%;
-		padding: .25em .1em 0 .1em;
+		padding: .25em .1em .25em .1em;
 	}
 	.image {
 		float: none;
@@ -93,7 +93,7 @@ a:hover {
 		border-bottom: 1px dotted black;
 	}
 	p {
-		padding: .25em;
+		padding: 0;
 	}
 	img {
 		border: none;
