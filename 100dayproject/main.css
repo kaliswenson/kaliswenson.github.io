@@ -24,6 +24,7 @@ span {
 nav {
 	float: right;
 	font-size: .75em;
+	text-decoration: underline;
 	margin: 1.5em;
 	padding: .75em 0 0 0;
 }
@@ -67,11 +68,11 @@ a {
 .words {
 	float: left;
 	text-align: left;
-	width: 30%;
+	width: 36%;
 	padding: 0 .5em 0 .5em;
 	/*border-top: 1px solid #ccc;*/
 }
 .image {
 	float: left;
-	width: 65%;
+	width: 60%;
 }
