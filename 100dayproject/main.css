@@ -76,3 +76,26 @@ a:hover {
 	float: left;
 	width: 60%;
 }
+
+@media only screen and (max-width: 500px) {
+	h1, span, nav {
+		float: none;
+		text-align: center;
+	}
+	.words {
+		float: none;
+		width: 100%;
+		padding: .25em .1em 0 .1em;
+	}
+	.image {
+		float: none;
+		width: 100%;
+		border-bottom: 1px dotted black;
+	}
+	p {
+		padding: .25em;
+	}
+	img {
+		border: none;
+	}
+}
