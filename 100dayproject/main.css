@@ -1,4 +1,6 @@
 body {
+	background-color: #fffffd;
+	color: #101010;
 	font-family: "Josefin sans", sans-serif;
 	font-size: 36px;
 }
@@ -11,26 +13,45 @@ img {
 h1 { 
 	font-weight: 400;
 	font-size: 1.5em;
+	margin: .75em 0 .75em .25em;
+	float: left;
+}
+
+span {
+	font-size: .35em;
+}
+
+nav {
+	float: right;
+	font-size: .75em;
+	margin: 1.5em;
+	padding: .75em 0 0 0;
 }
 
 h2 {
 	font-weight: 300;
 	font-size: .5em;
+	float: right;
 }
 
 h3 {
 	font-weight: 400;
 	font-size: 1em;
-	margin: 0;
+	float: left;
 }
 
 h4 {
-	font-size: .5em;
-	margin: 0;
+	font-weight: 400;
+	font-size: 1em;
+	float: right;
 }
 
 p {
+	display: block;
+	font-family: "Gentium Basic", serif;
 	font-size: .5em;
+	clear: both;
+	padding: 1em;
 }
 
 a {
@@ -40,16 +61,17 @@ a {
 
 #wrapper {
 	width: 100%;
+	clear: both;
 }
-
 
 .words {
 	float: left;
 	text-align: left;
-	width: 40%;
-	border-top: 1px solid #ccc;
+	width: 30%;
+	padding: 0 .5em 0 .5em;
+	/*border-top: 1px solid #ccc;*/
 }
 .image {
 	float: left;
-	width: 60%;
+	width: 65%;
 }
