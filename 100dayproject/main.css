@@ -1,7 +1,7 @@
 body {
 	background-color: #fffffd;
 	color: #010101;
-	font-family: "Josefin sans", sans-serif;
+	font-family: "PT mono", sans-serif;
 	font-size: 36px;
 }
 
@@ -33,14 +33,14 @@ nav {
 
 h3 {
 	font-weight: 400;
-	font-size: 1em;
-	float: left;
+	font-size: .75em;
+	padding: .5em 0 0 0;
 }
 
 h4 {
 	font-weight: 400;
-	font-size: 1em;
-	float: right;
+	font-size: .5em;
+	padding: .15em 0 0 0;
 }
 
 p {
@@ -48,7 +48,7 @@ p {
 	font-family: "Gentium Basic", serif;
 	font-size: .5em;
 	clear: both;
-	padding: 1em;
+	padding: .5em 0;
 }
 
 a {
@@ -70,7 +70,6 @@ a:hover {
 	text-align: left;
 	width: 36%;
 	padding: 0 .5em 0 .5em;
-	/*border-top: 1px solid #ccc;*/
 }
 .image {
 	float: left;
