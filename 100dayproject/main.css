@@ -1,7 +1,7 @@
 body {
 	background-color: #fffffd;
-	color: #010101;
-	font-family: "PT mono", sans-serif;
+	color: #111;
+	font-family: "Odin Rounded", sans-serif;
 	font-size: 36px;
 }
 
@@ -11,7 +11,7 @@ img {
 }
 
 h1 { 
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 1.5em;
 	margin: .25em 0 1em .25em;
 	float: left;
@@ -19,41 +19,42 @@ h1 {
 
 span {
 	font-size: .35em;
-	font-weight: 400;
 }
 
 nav {
 	float: right;
 	font-size: .75em;
 	text-decoration: underline;
-	font-weight: 400;
+	font-weight: 300;
 	margin: .5em .5em;
 	padding: .75em 0 0 0;
 }
 
 h3 {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: .75em;
 	padding: .5em 0 0 0;
 }
 
 h4 {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: .5em;
 	padding: .15em 0 0 0;
 }
 
 p {
 	display: block;
-	font-family: "Gentium Basic", serif;
-	font-size: .5em;
+	font-family: "Aileron", serif;
+	font-size: .45em;
+	font-weight: thin;
+	color: #111;
 	clear: both;
 	padding: .5em 0;
 }
 
 a {
 	text-decoration: none;
-	color: #010101;
+	color: #111;
 }
 
 a:hover {
