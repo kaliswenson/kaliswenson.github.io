@@ -1,33 +1,8 @@
-@font-face {
-    font-family: 'aileronregular';
-    src: url('aileron-regular-webfont.eot');
-    src: url('aileron-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('aileron-regular-webfont.woff2') format('woff2'),
-         url('aileron-regular-webfont.woff') format('woff'),
-         url('aileron-regular-webfont.ttf') format('truetype'),
-         url('aileron-regular-webfont.svg#aileronregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'aileronlight';
-    src: url('aileron-light-webfont.eot');
-    src: url('aileron-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('aileron-light-webfont.woff2') format('woff2'),
-         url('aileron-light-webfont.woff') format('woff'),
-         url('aileron-light-webfont.ttf') format('truetype'),
-         url('aileron-light-webfont.svg#aileronlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body {
 	background-color: #fffffd;
 	color: #111;
-	font-family: "Odin Rounded", sans-serif;
+	font-family: "Arvo", sans-serif;
 	font-size: 36px;
 }
 
@@ -65,12 +40,12 @@ h3 {
 h4 {
 	font-weight: 300;
 	font-size: .5em;
-	padding: .15em 0 0 0;
+	padding: .25em 0 0 0;
 }
 
 p {
 	display: block;
-	font-family: "aileronregular", sans-serif;
+	font-family: "Open sans", sans-serif;
 	font-size: .45em;
 	font-weight: thin;
 	color: #111;
@@ -90,6 +65,7 @@ a:hover {
 #wrapper {
 	width: 100%;
 	clear: both;
+	margin: auto;
 }
 
 .words {
