@@ -2,7 +2,7 @@
 body {
 	background-color: #fffffd;
 	color: #111;
-	font-family: "Arvo", sans-serif;
+	font-family: "Oswald", "Gill sans", sans-serif;
 	font-size: 36px;
 }
 
@@ -12,45 +12,55 @@ img {
 }
 
 h1 { 
-	font-weight: 300;
-	font-size: 1.5em;
+	font-weight: 400;
+	font-size: 1.75em;
 	margin: .25em 0 1em .25em;
 	float: left;
 }
 
 span {
-	font-size: .35em;
+	font-weight: 300;
+	font-size: .5em;
 }
 
 nav {
 	float: right;
 	font-size: .75em;
 	text-decoration: underline;
-	font-weight: 300;
+	font-weight: 400;
 	margin: .5em .5em;
 	padding: .75em 0 0 0;
 }
 
+header {
+	padding: 1em 0 4em 0;
+}
+
 h3 {
-	font-weight: 300;
-	font-size: .75em;
+	font-weight: 400;
+	font-size: 1em;
 	padding: .5em 0 0 0;
+	text-align: left;
+	float: left;
 }
 
 h4 {
-	font-weight: 300;
-	font-size: .5em;
-	padding: .25em 0 0 0;
+	font-weight: 400;
+	font-size: .75em;
+	padding: 1.05em 0 0 0;
+	text-align: left;
+	float: right;
 }
 
 p {
 	display: block;
-	font-family: "Open sans", sans-serif;
-	font-size: .45em;
+	font-family: "Droid serif", "Garamond", serif;
+	font-size: .55em;
 	font-weight: thin;
 	color: #111;
+	padding: 1em 0;
+	text-align: left;
 	clear: both;
-	padding: .5em 0;
 }
 
 a {
@@ -70,13 +80,13 @@ a:hover {
 
 .words {
 	float: left;
-	text-align: left;
-	width: 36%;
+	width: 45%;
 	padding: 0 .5em 0 .5em;
+	clear: right;
 }
 .image {
-	float: left;
-	width: 60%;
+	float: right;
+	width: 50%;
 }
 
 @media only screen and (max-width: 500px) {
