@@ -75,18 +75,19 @@ a:hover {
 #wrapper {
 	width: 100%;
 	clear: both;
+	padding: 0 0 0 .5em;
 	margin: auto;
 }
 
 .words {
 	float: left;
 	width: 45%;
-	padding: 0 .5em 0 .5em;
 	clear: right;
 }
 .image {
 	float: right;
 	width: 50%;
+	margin: 0 1em 0 0;
 }
 
 @media only screen and (max-width: 500px) {
@@ -115,9 +116,7 @@ a:hover {
 		width: 100%;
 		border-bottom: 1px dotted black;
 	}
-	h4{
-		padding: .1em;
-	}
+
 	p {
 		padding: 0;
 	}
