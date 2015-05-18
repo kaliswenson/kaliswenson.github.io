@@ -28,10 +28,8 @@ h2 {
 nav {
 	float: right;
 	font-size: .75em;
-	text-decoration: underline;
-	font-weight: 400;
-	margin: .5em .5em;
-	padding: .75em 0 0 0;
+	font-weight: 300;
+	margin: 1.75em .5em 0 .5em;
 }
 
 header {
@@ -42,14 +40,15 @@ h3 {
 	font-weight: 400;
 	font-size: 1em;
 	text-align: left;
+	padding: .25em 0 0 0;
 	float: left;
 }
 
 h4 {
 	font-weight: 400;
-	font-size: .75em;
-	padding: .5em 0 0 0;
+	font-size: 1em;
 	text-align: left;
+	padding: .25em 0 0 0;
 	float: right;
 }
 
@@ -76,8 +75,7 @@ a:hover {
 #wrapper {
 	width: 100%;
 	clear: both;
-	padding: 0 0 0 .5em;
-	
+	padding: 0 0 0 .5em;	
 }
 
 .words {
@@ -94,33 +92,58 @@ a:hover {
 
 @media only screen and (max-width: 500px) {
 	header {
-		float: none;
-		text-align: left;
-		margin: auto;
-		padding: .25em;
+		text-align: center;
+		margin: 1em;
+		padding: 0;
+
 	}
 	h1 {
-		font-size: 1em;
+		float: none;
+		font-size: 1.25em;
+		margin: .25em 0 -.15em .25em;
+		padding: 0;
 	}
+
 	h2 {
-		font-size: .5em;
+		float: none;
+		font-size: .75em;
+		margin: .25em 0 .5em 0;
 	}
+
 	nav {
+		float: none;
 		font-size: .5em;
+		margin: .25em;
+	}
+	
+	h3 {
+		float: left;
+		font-size: .5em;
+		padding: .75em 0 .75em 0;
+	}
+
+	h4 {
+		float: right;
+		font-size: .5em;
+		padding: .75em 0 .75em 0;
+	}
+	p {
+		font-size: .45em;
+		margin: .5em 0 .75em 0;
+		padding: 0;
+	}
+	#wrapper {
+		padding: 0;
 	}
 	.words {
 		float: none;
-		width: 100%;
-		padding: .25em .1em .25em .1em;
+		width: 90%;
+		margin: auto;
 	}
 	.image {
 		float: none;
 		width: 100%;
 		border-bottom: 1px dotted black;
-	}
-
-	p {
-		padding: 0;
 	}
 	img {
 		border: none;
