@@ -82,7 +82,7 @@ a:hover {
 	float: left;
 	width: 35%;
 	clear: right;
-	margin: 0 0 0 3em;
+	margin: 0 .25em 0 3em;
 }
 .image {
 	float: right;
@@ -90,7 +90,14 @@ a:hover {
 	margin: 0 .75em 0 0;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
+	.words {
+		margin: 0 0 0 .25em;
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
 	header {
 		text-align: center;
 		margin: 1em;
@@ -99,36 +106,36 @@ a:hover {
 	}
 	h1 {
 		float: none;
-		font-size: 1.25em;
-		margin: .25em 0 -.15em .25em;
+		font-size: 1.75em;
+		margin: 0;
 		padding: 0;
 	}
 
 	h2 {
 		float: none;
 		font-size: .75em;
-		margin: .25em 0 .5em 0;
+		margin: .25em 0 .75em 0;
 	}
 
 	nav {
 		float: none;
 		font-size: .5em;
-		margin: .25em;
+		margin: 0;
 	}
 	
 	h3 {
 		float: left;
-		font-size: .5em;
+		font-size: .75em;
 		padding: .75em 0 .75em 0;
 	}
 
 	h4 {
 		float: right;
-		font-size: .5em;
+		font-size: .75em;
 		padding: .75em 0 .75em 0;
 	}
 	p {
-		font-size: .45em;
+		font-size: .5em;
 		text-align: justify;
 		margin: .5em 0 .75em 0;
 		padding: 0;
@@ -144,9 +151,11 @@ a:hover {
 	.image {
 		float: none;
 		width: 100%;
+		margin: auto;
 		border-bottom: 1px dotted black;
 	}
 	img {
 		border: none;
 	}
 }
+
