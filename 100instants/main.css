@@ -7,9 +7,8 @@ body {
 	max-width: 1800px;
 }
 
-img {
-	border: 1px solid #ccc;
-	width: 100%;
+header {
+	padding: .5em 0 2em 0;
 }
 
 h1 { 
@@ -31,10 +30,6 @@ nav {
 	font-size: .75em;
 	font-weight: 300;
 	margin: 1.75em .5em 0 .5em;
-}
-
-header {
-	padding: .5em 0 2em 0;
 }
 
 h3 {
@@ -62,6 +57,11 @@ p {
 	padding: 1em 0;
 	text-align: left;
 	clear: both;
+}
+
+img {
+	border: 1px solid #ccc;
+	width: 100%;
 }
 
 a {
@@ -130,36 +130,42 @@ a:hover {
 	h3 {
 		float: left;
 		font-size: .75em;
-		padding: .75em 0 .75em 0;
+		padding: .75em 0;
 	}
 
 	h4 {
 		float: right;
 		font-size: .75em;
-		padding: .75em 0 .75em 0;
+		padding: .75em 0;
 	}
+
 	p {
 		font-size: .5em;
 		text-align: justify;
 		margin: .5em 0 .75em 0;
 		padding: 0;
 	}
+	
+	img {
+		border: none;
+	}
+
 	#wrapper {
 		padding: 0;
 	}
+
 	.words {
 		float: none;
 		width: 90%;
 		margin: auto;
 	}
+
 	.image {
 		float: none;
 		width: 100%;
 		margin: auto;
 		border-bottom: 1px dotted black;
 	}
-	img {
-		border: none;
-	}
+
 }
 
