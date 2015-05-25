@@ -4,6 +4,7 @@ body {
 	color: #111;
 	font-family: "Oswald", "Gill sans", sans-serif;
 	font-size: 36px;
+	max-width: 1800px;
 }
 
 img {
@@ -76,6 +77,9 @@ a:hover {
 	width: 100%;
 	clear: both;
 	padding: 0 0 0 .5em;	
+}
+#wrapper > div {
+	clear: both;
 }
 
 .words {
