@@ -36,7 +36,7 @@ h3 {
 	font-weight: 400;
 	font-size: 1em;
 	text-align: left;
-	padding: .25em 0 0 0;
+	padding-top: .25em;
 	float: left;
 }
 
@@ -44,7 +44,7 @@ h4 {
 	font-weight: 400;
 	font-size: 1em;
 	text-align: left;
-	padding: .25em 0 0 0;
+	padding-top: .25em;
 	float: right;
 }
 
@@ -76,7 +76,7 @@ a:hover {
 #wrapper {
 	width: 100%;
 	clear: both;
-	padding: 0 0 0 .5em;	
+	padding-left: .5em;	
 }
 #wrapper > div {
 	clear: both;
@@ -91,12 +91,12 @@ a:hover {
 .image {
 	float: right;
 	width: 50%;
-	margin: 0 .75em 0 0;
+	margin-right: .75em;
 }
 
 @media only screen and (max-width: 1000px) {
 	.words {
-		margin: 0 0 0 .25em;
+		margin-left: .25em;
 		width: 45%;
 	}
 }
@@ -142,10 +142,9 @@ a:hover {
 	p {
 		font-size: .5em;
 		text-align: justify;
-		margin: .5em 0 .75em 0;
-		padding: 0;
+		padding: 0 0 .75em 0;
 	}
-	
+
 	img {
 		border: none;
 	}
