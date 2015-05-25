@@ -64,6 +64,10 @@ img {
 	width: 100%;
 }
 
+img:hover {
+	opacity: 0.75;
+}
+
 a {
 	text-decoration: none;
 	color: #111;
